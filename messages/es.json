@@ -1,0 +1,147 @@
+{
+  "site": {
+    "name": "Transporte Ordoñes",
+    "tagline": "Cargas generales y granos a todo el país",
+    "phoneDisplay": "0353 562-8132",
+    "phoneHref": "tel:+543532562813",
+    "landlineDisplay": "(0353) 488-1051",
+    "whatsappNumber": "5493532562813",
+    "whatsappMessage": "Hola! Quería consultar por un flete con Transporte Ordoñes.",
+    "email": "trans.ordo@hotmail.com",
+    "facebook": "https://www.facebook.com/trans.ordo/",
+    "addressLine": "Pasco 226, Tío Pujío",
+    "addressRegion": "Córdoba, Argentina (5990)",
+    "mapsQuery": "Pasco 226, Tío Pujío, Córdoba",
+    "_todo": "REEMPLAZAR teléfono/WhatsApp reales con Nery. info.txt: 0353 562-8132 · logo: (0353) 488-1051/1111."
+  },
+  "nav": {
+    "links": [
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Nosotros", "href": "#nosotros" },
+      { "label": "Flota", "href": "#flota" },
+      { "label": "Clientes", "href": "#clientes" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "cta": "WhatsApp",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "toggleTheme": "Cambiar tema"
+  },
+  "hero": {
+    "kicker": "Tío Pujío, Córdoba · Cobertura nacional",
+    "headlineLead": "Tu carga,",
+    "headlineAccent": "a todo el país",
+    "description": "Cargas generales y granos con flota propia. La confianza de una empresa familiar que responde siempre, de Tío Pujío para toda la Argentina.",
+    "ctaPrimary": "Pedir cotización",
+    "ctaSecondary": "Llamar ahora",
+    "trust": [
+      "Flota propia Mercedes-Benz",
+      "Cargas generales y granos",
+      "Cobertura nacional"
+    ]
+  },
+  "services": {
+    "kicker": "Qué transportamos",
+    "title": "Movemos lo que tu negocio necesita",
+    "intro": "Coordinamos retiro y entrega para que tu producto llegue en tiempo y forma, sin intermediarios.",
+    "items": [
+      {
+        "index": "01",
+        "title": "Cargas generales",
+        "description": "Mercadería paletizada y carga seca para industrias y distribuidoras. Como los lácteos de La Paulina, de planta a destino.",
+        "image": "/fleet/camion-1.jpg",
+        "alt": "Camión de Transporte Ordoñes cargado con pallets de mercadería"
+      },
+      {
+        "index": "02",
+        "title": "Granos y cereales",
+        "description": "Carga a granel con lona, del campo al acopio o al puerto. Unidades preparadas para acompañar la cosecha.",
+        "image": "/fleet/camion-4.jpg",
+        "alt": "Camión con acoplado y carga de granos cubierta con lona"
+      },
+      {
+        "index": "03",
+        "title": "Logística a medida",
+        "description": "¿Tenés una necesidad puntual? Contanos qué hay que mover y a dónde, y lo resolvemos.",
+        "image": "",
+        "alt": ""
+      }
+    ]
+  },
+  "about": {
+    "kicker": "Quiénes somos",
+    "title": "Una familia arriba del camión",
+    "paragraphs": [
+      "Transporte Ordoñes nació en Tío Pujío, en el corazón productivo de Córdoba. Somos una empresa familiar: los mismos que atienden el teléfono son los que conocen cada camión y cada ruta.",
+      "Con flota propia Mercedes-Benz y choferes de confianza, movemos cargas generales y granos a toda la Argentina. Sin intermediarios y sin vueltas: tu carga es nuestra responsabilidad de punta a punta."
+    ],
+    "values": [
+      { "title": "Flota propia", "description": "Camiones nuestros, mantenimiento al día." },
+      { "title": "Choferes de confianza", "description": "Gente conocida, no terceros al azar." },
+      { "title": "Trato directo", "description": "Hablás con los dueños, no con un call center." },
+      { "title": "Respuesta rápida", "description": "Cotizamos y coordinamos sin demoras." }
+    ],
+    "stats": [
+      { "value": "+25", "label": "años en la ruta" },
+      { "value": "Nacional", "label": "cobertura" },
+      { "value": "Mercedes-Benz", "label": "flota propia" }
+    ],
+    "statsNote": "Datos a confirmar con el cliente."
+  },
+  "fleet": {
+    "kicker": "Nuestra flota",
+    "title": "Fierros que cumplen",
+    "intro": "Camiones Mercedes-Benz con acoplado, carrocería playa con barandas y unidades con lona para granel. Mantenimiento al día para que nunca falte un viaje.",
+    "tags": ["Camión + acoplado", "Playo con barandas", "Lona / granel", "Larga distancia"],
+    "photos": [
+      { "image": "/fleet/camion-5.jpg", "alt": "Camión con acoplado playo de Transporte Ordoñes al atardecer" },
+      { "image": "/fleet/camion-2.jpg", "alt": "Tractor Mercedes-Benz de Transporte Ordoñes en ruta" },
+      { "image": "/fleet/camion-3.jpg", "alt": "Cabina Mercedes-Benz con el lettering de Transporte Ordoñes" },
+      { "image": "/fleet/camion-1.jpg", "alt": "Camión de Transporte Ordoñes cargado con pallets" },
+      { "image": "/fleet/camion-4.jpg", "alt": "Camión con acoplado y carga de granos cubierta con lona" }
+    ]
+  },
+  "clients": {
+    "kicker": "Nos eligen",
+    "title": "Confianza que viaja con nosotros",
+    "description": "Trabajamos para empresas que no pueden fallar con su mercadería, como los lácteos de La Paulina (grupo Saputo). Por algo nos siguen eligiendo.",
+    "logos": ["Saputo", "La Paulina"],
+    "logosNote": "+ entre otros",
+    "image": "/clients/la-paulina-productos.png",
+    "imageAlt": "Productos lácteos La Paulina (Saputo) que transportamos"
+  },
+  "coverage": {
+    "kicker": "Dónde llegamos",
+    "title": "De Tío Pujío a todo el país",
+    "description": "Base en Tío Pujío, Córdoba, y viajes a todas las provincias. Coordinamos cargas de ida y vuelta para optimizar cada flete.",
+    "baseLabel": "Base operativa",
+    "baseValue": "Tío Pujío, Córdoba",
+    "regions": ["Córdoba", "Santa Fe", "Buenos Aires", "Cuyo", "Litoral", "NOA", "Patagonia"]
+  },
+  "contact": {
+    "kicker": "Hablemos",
+    "title": "Pedí tu cotización",
+    "description": "Contanos qué necesitás mover y a dónde. Te respondemos rápido por WhatsApp o teléfono.",
+    "ctaPrimary": "Escribir por WhatsApp",
+    "ctaSecondary": "Llamar ahora",
+    "labels": {
+      "whatsapp": "WhatsApp",
+      "phone": "Teléfono",
+      "email": "Email",
+      "address": "Dónde estamos",
+      "facebook": "Facebook"
+    }
+  },
+  "footer": {
+    "tagline": "Transporte de cargas generales y granos. Empresa familiar de Tío Pujío, Córdoba, con cobertura nacional.",
+    "navTitle": "Secciones",
+    "contactTitle": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "madeWith": "Hecho con dedicación para el camino."
+  },
+  "cookies": {
+    "message": "Usamos cookies para entender cómo se usa el sitio y mejorarlo. Podés aceptar o rechazar.",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
+  }
+}

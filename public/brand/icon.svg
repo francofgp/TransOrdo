@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Transporte Ordoñes">
+  <rect width="64" height="64" rx="14" fill="#10aeef"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14 41V20h22v21"/>
+    <path d="M36 26h8l6 6v9h-4"/>
+    <path d="M18 41h-4"/>
+    <circle cx="22" cy="43" r="3.2"/>
+    <circle cx="44" cy="43" r="3.2"/>
+  </g>
+</svg>
