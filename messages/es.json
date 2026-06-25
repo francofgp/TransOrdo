@@ -63,8 +63,8 @@
         "index": "03",
         "title": "Carga refrigerada",
         "description": "Cadena de frío para mercadería que no puede perder temperatura. Unidad equipada para transporte refrigerado.",
-        "image": "/fleet/camion-2.jpg",
-        "alt": "Camión de Transporte Ordoñes equipado para carga refrigerada"
+        "image": "/fleet/refrigerado.jpg",
+        "alt": "Camiones con equipo de frío para transporte refrigerado"
       },
       {
         "index": "04",
