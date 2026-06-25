@@ -18,8 +18,7 @@ export default function About({ translations }: AboutProps) {
       <div className="container-custom">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:items-center">
           <ScrollReveal>
-            <span className="kicker">{translations.kicker}</span>
-            <h2 className="section-title mt-4">{translations.title}</h2>
+            <h2 className="section-title">{translations.title}</h2>
             <div className="mt-5 space-y-4 text-[var(--text-secondary)] md:text-lg">
               {translations.paragraphs.map((p, i) => (
                 <p key={i}>{p}</p>

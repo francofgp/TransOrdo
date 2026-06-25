@@ -16,12 +16,11 @@ export default function Coverage({ translations }: CoverageProps) {
         <div className="overflow-hidden rounded-3xl border border-[var(--border-color)] bg-[var(--surface-primary)]">
           <div className="grid grid-cols-1 gap-8 p-8 md:grid-cols-[1.1fr_1fr] md:gap-12 md:p-12">
             <ScrollReveal>
-              <span className="kicker">{translations.kicker}</span>
-              <h2 className="section-title mt-4">{translations.title}</h2>
+              <h2 className="section-title">{translations.title}</h2>
               <p className="mt-4 max-w-md text-[var(--text-secondary)] md:text-lg">
                 {translations.description}
               </p>
-              <div className="mt-7 inline-flex items-center gap-3 rounded-xl border border-[var(--border-color)] bg-[var(--surface-secondary)] px-4 py-3">
+              <div className="mt-7 inline-flex items-center gap-3">
                 <MapPinIcon className="h-5 w-5 text-[var(--brand)]" />
                 <div>
                   <div className="text-xs uppercase tracking-wide text-[var(--text-muted)]">

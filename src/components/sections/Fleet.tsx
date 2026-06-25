@@ -19,8 +19,7 @@ export default function Fleet({ translations }: FleetProps) {
       <div className="container-custom">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <ScrollReveal className="max-w-2xl">
-            <span className="kicker">{translations.kicker}</span>
-            <h2 className="section-title mt-4">{translations.title}</h2>
+            <h2 className="section-title">{translations.title}</h2>
             <p className="mt-4 text-[var(--text-secondary)]">{translations.intro}</p>
           </ScrollReveal>
 

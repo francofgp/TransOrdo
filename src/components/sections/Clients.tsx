@@ -15,8 +15,7 @@ export default function Clients({ translations }: ClientsProps) {
       <div className="container-custom">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
           <ScrollReveal>
-            <span className="kicker">{translations.kicker}</span>
-            <h2 className="section-title mt-4">{translations.title}</h2>
+            <h2 className="section-title">{translations.title}</h2>
             <p className="mt-4 max-w-md text-[var(--text-secondary)] md:text-lg">
               {translations.description}
             </p>

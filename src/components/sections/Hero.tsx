@@ -14,7 +14,7 @@ interface HeroProps {
 }
 
 const overlay =
-  'linear-gradient(180deg, rgba(8,10,14,0.45) 0%, rgba(8,10,14,0.15) 26%, rgba(8,10,14,0.55) 60%, rgba(8,10,14,0.96) 100%), radial-gradient(125% 80% at 8% 115%, rgba(16,174,239,0.32), transparent 60%)';
+  'linear-gradient(180deg, rgba(8,10,14,0.5) 0%, rgba(8,10,14,0.22) 22%, rgba(8,10,14,0.68) 55%, rgba(8,10,14,0.97) 100%), radial-gradient(120% 75% at 6% 118%, rgba(16,174,239,0.24), transparent 58%)';
 
 export default function Hero({ translations, site }: HeroProps) {
   const reduced = useReducedMotion();
@@ -44,13 +44,9 @@ export default function Hero({ translations, site }: HeroProps) {
       </div>
 
       <div className="container-custom relative w-full pb-[clamp(2.6rem,7vh,5rem)] pt-32">
-        <motion.span {...fade(0.1)} className="kicker text-[var(--brand)]">
-          {translations.kicker}
-        </motion.span>
-
         <motion.h1
-          {...fade(0.2)}
-          className="font-display display mt-4 max-w-[16ch] text-white"
+          {...fade(0.1)}
+          className="font-display display max-w-[16ch] text-white"
         >
           {translations.headlineLead}
           <br />
@@ -59,7 +55,8 @@ export default function Hero({ translations, site }: HeroProps) {
 
         <motion.p
           {...fade(0.35)}
-          className="mt-5 max-w-xl text-base leading-relaxed text-white/80 md:text-lg"
+          className="mt-5 max-w-xl text-base leading-relaxed text-white/90 md:text-lg"
+          style={{ textShadow: '0 1px 16px rgba(8,10,14,0.6)' }}
         >
           {translations.description}
         </motion.p>
