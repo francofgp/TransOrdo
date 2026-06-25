@@ -101,4 +101,4 @@ Pasos:
 
 ---
 
-Hecho para Nery Ordoñes. Las fotos pertenecen a Transporte Ordoñes; el logo de Saputo/La Paulina se muestra como cliente (confirmar permiso de uso).
+Hecho para Nery Ordoñes. Las fotos pertenecen a Transporte Ordoñes. Los nombres y logos de clientes solo se publican con permiso de cada empresa; por ahora la sección Clientes usa placeholders genéricos.

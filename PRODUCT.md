@@ -23,7 +23,7 @@ Landing page de **Transporte Ordoñes** (Tío Pujío, Córdoba): empresa familia
 1. **Fierros reales, gente real.** Fotos propias de la flota y datos concretos antes que ilustraciones o claims vacíos.
 2. **Una sola cosa por pantalla.** Cada sección empuja a entender o a contactar; nada decorativo que no aporte.
 3. **El contacto siempre a un toque.** WhatsApp y teléfono visibles y repetidos sin ser molestos.
-4. **Confianza por evidencia.** Clientes (La Paulina/Saputo), años, flota y cobertura cuentan la historia; sin grilla de métricas cliché.
+4. **Confianza por evidencia.** Clientes, años, flota y cobertura cuentan la historia; sin grilla de métricas cliché. Los nombres/logos de clientes solo se muestran con permiso de cada empresa.
 5. **Cordobés sin disfraz.** Calidez y cercanía en el copy; nada de costumbrismo forzado.
 
 ## Accessibility & Inclusion

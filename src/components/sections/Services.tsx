@@ -13,7 +13,8 @@ interface ServicesProps {
 }
 
 export default function Services({ translations, site }: ServicesProps) {
-  const [first, second, third] = translations.items;
+  const cards = translations.items.slice(0, 3);
+  const cta = translations.items[3];
   const whatsapp = waLink(site.whatsappNumber, site.whatsappMessage);
 
   return (
@@ -26,23 +27,26 @@ export default function Services({ translations, site }: ServicesProps) {
         </ScrollReveal>
 
         <div className="mt-12 grid grid-cols-12 gap-4 md:gap-5">
-          <ScrollReveal as="article" className="col-span-12 md:col-span-7">
-            <ServiceImageCard item={first} className="min-h-[320px] md:min-h-[420px]" />
-          </ScrollReveal>
+          {cards.map((item, i) => (
+            <ScrollReveal
+              key={item.index}
+              as="article"
+              className="col-span-12 md:col-span-4"
+              delay={0.06 * i}
+            >
+              <ServiceImageCard item={item} className="min-h-[320px] md:min-h-[400px]" />
+            </ScrollReveal>
+          ))}
 
-          <ScrollReveal as="article" className="col-span-12 md:col-span-5" delay={0.08}>
-            <ServiceImageCard item={second} className="min-h-[320px] md:min-h-[420px]" />
-          </ScrollReveal>
-
-          <ScrollReveal as="article" className="col-span-12" delay={0.12}>
+          <ScrollReveal as="article" className="col-span-12" delay={0.2}>
             <div className="flex flex-col items-start justify-between gap-6 rounded-2xl bg-[var(--brand)] p-7 text-[var(--brand-contrast)] md:flex-row md:items-center md:p-9">
               <div className="max-w-2xl">
                 <div className="flex items-center gap-2 text-sm font-bold uppercase tracking-wide opacity-80">
                   <RouteIcon className="h-5 w-5" />
-                  {third.index}
+                  {cta.index}
                 </div>
-                <h3 className="font-condensed-strong mt-2 text-2xl uppercase md:text-3xl">{third.title}</h3>
-                <p className="mt-2 text-[var(--brand-contrast)]/85">{third.description}</p>
+                <h3 className="font-condensed-strong mt-2 text-2xl uppercase md:text-3xl">{cta.title}</h3>
+                <p className="mt-2 text-[var(--brand-contrast)]/85">{cta.description}</p>
               </div>
               <a
                 href={whatsapp}

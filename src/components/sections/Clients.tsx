@@ -21,17 +21,20 @@ export default function Clients({ translations }: ClientsProps) {
               {translations.description}
             </p>
 
-            <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
-              <span className="text-3xl font-black italic tracking-tight" style={{ color: 'oklch(0.62 0.21 27)' }}>
-                Saputo
-              </span>
-              <span className="text-2xl font-extrabold tracking-tight text-[var(--text-primary)]">
-                La&nbsp;Paulina
-              </span>
-              <span className="text-sm font-semibold uppercase tracking-wide text-[var(--text-muted)]">
-                {translations.logosNote}
-              </span>
+            <div className="mt-8 grid max-w-md grid-cols-2 gap-3">
+              {translations.logos.map((name, i) => (
+                <div
+                  key={name}
+                  className="flex items-center gap-3 rounded-xl border border-dashed border-[var(--border-color)] px-4 py-3"
+                >
+                  <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-[var(--brand)] text-sm font-bold text-[var(--brand-contrast)]">
+                    {i + 1}
+                  </span>
+                  <span className="text-sm font-semibold text-[var(--text-secondary)]">{name}</span>
+                </div>
+              ))}
             </div>
+            <p className="mt-4 text-sm text-[var(--text-muted)]">{translations.logosNote}</p>
           </ScrollReveal>
 
           <ScrollReveal delay={0.1}>

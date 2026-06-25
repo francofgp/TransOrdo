@@ -48,7 +48,7 @@
       {
         "index": "01",
         "title": "Cargas generales",
-        "description": "Mercadería paletizada y carga seca para industrias y distribuidoras. Como los lácteos de La Paulina, de planta a destino.",
+        "description": "Mercadería paletizada y carga seca para industrias y distribuidoras, de planta a destino.",
         "image": "/fleet/camion-1.jpg",
         "alt": "Camión de Transporte Ordoñes cargado con pallets de mercadería"
       },
@@ -61,6 +61,13 @@
       },
       {
         "index": "03",
+        "title": "Carga refrigerada",
+        "description": "Cadena de frío para mercadería que no puede perder temperatura. Unidad equipada para transporte refrigerado.",
+        "image": "/fleet/camion-2.jpg",
+        "alt": "Camión de Transporte Ordoñes equipado para carga refrigerada"
+      },
+      {
+        "index": "04",
         "title": "Logística a medida",
         "description": "¿Tenés una necesidad puntual? Contanos qué hay que mover y a dónde, y lo resolvemos.",
         "image": "",
@@ -104,11 +111,11 @@
   "clients": {
     "kicker": "Nos eligen",
     "title": "Confianza que viaja con nosotros",
-    "description": "Trabajamos para empresas que no pueden fallar con su mercadería, como los lácteos de La Paulina (grupo Saputo). Por algo nos siguen eligiendo.",
-    "logos": ["Saputo", "La Paulina"],
-    "logosNote": "+ entre otros",
-    "image": "/clients/la-paulina-productos.png",
-    "imageAlt": "Productos lácteos La Paulina (Saputo) que transportamos"
+    "description": "Empresas de la industria alimenticia, el agro y la distribución confían su mercadería a nuestros camiones. Por algo nos siguen eligiendo.",
+    "logos": ["Cliente 1", "Cliente 2", "Cliente 3", "Cliente 4"],
+    "logosNote": "Sumamos clientes que confían en nosotros — sus logos, próximamente.",
+    "image": "/fleet/camion-1.jpg",
+    "imageAlt": "Camión de Transporte Ordoñes cargado con mercadería de clientes"
   },
   "coverage": {
     "kicker": "Dónde llegamos",
