@@ -82,7 +82,7 @@ export default function Header({ translations, site }: HeaderProps) {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 border-b transition-colors duration-300 ${
-        scrolled
+        scrolled && !open
           ? 'border-[var(--border-color)] bg-[var(--header-bg)] backdrop-blur-md'
           : 'border-transparent bg-transparent'
       }`}
