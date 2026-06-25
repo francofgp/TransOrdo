@@ -144,7 +144,11 @@
     "navTitle": "Secciones",
     "contactTitle": "Contacto",
     "rights": "Todos los derechos reservados.",
-    "madeWith": "Hecho con dedicación para el camino."
+    "credit": {
+      "label": "Desarrollado por",
+      "company": "Phyros",
+      "url": "https://www.phyros.net"
+    }
   },
   "cookies": {
     "message": "Usamos cookies para entender cómo se usa el sitio y mejorarlo. Podés aceptar o rechazar.",

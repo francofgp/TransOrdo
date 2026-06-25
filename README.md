@@ -107,4 +107,4 @@ Hecho para Nery Ordoñes. Las fotos propias pertenecen a Transporte Ordoñes; `p
 
 Código y diseño **© 2026 Transporte Ordoñes — todos los derechos reservados** (ver `LICENSE`). El repositorio es **público solo para despliegue/transparencia**: **no es open source** y no se permite su reutilización sin autorización. Como es un sitio estático, el repo no expone nada que no se vea ya desde el navegador (no hay claves ni secretos).
 
-Desarrollado por **Franco Giuliano Pertile**.
+Desarrollado por **Franco Giuliano Pertile** — [Phyros](https://www.phyros.net).

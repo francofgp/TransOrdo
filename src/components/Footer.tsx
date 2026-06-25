@@ -76,7 +76,17 @@ export default function Footer({ translations, nav, site }: FooterProps) {
 
         <div className="mt-12 flex flex-col gap-2 border-t border-[var(--border-color)] pt-6 text-xs text-[var(--text-muted)] sm:flex-row sm:items-center sm:justify-between">
           <span>© {year} {site.name}. {translations.rights}</span>
-          <span>{translations.madeWith}</span>
+          <span className="flex items-center gap-1.5">
+            {translations.credit.label}
+            <a
+              href={translations.credit.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-[var(--text-secondary)] underline-offset-4 transition-colors hover:text-[var(--brand)] hover:underline"
+            >
+              {translations.credit.company}
+            </a>
+          </span>
         </div>
       </div>
     </footer>
