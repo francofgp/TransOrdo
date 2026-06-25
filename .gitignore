@@ -21,8 +21,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# local env files
-.env*.local
+# env files (NO commitear secretos; se mantiene solo .env.example)
+.env
+.env.*
+!.env.example
 
 # typescript
 *.tsbuildinfo

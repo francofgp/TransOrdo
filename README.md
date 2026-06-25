@@ -101,4 +101,8 @@ Pasos:
 
 ---
 
-Hecho para Nery Ordoñes. Las fotos pertenecen a Transporte Ordoñes. Los nombres y logos de clientes solo se publican con permiso de cada empresa; por ahora la sección Clientes usa placeholders genéricos.
+Hecho para Nery Ordoñes. Las fotos propias pertenecen a Transporte Ordoñes; `public/fleet/refrigerado.jpg` es stock (Pexels, ver `public/fleet/CREDITS.md`). Los nombres y logos de clientes solo se publican con permiso de cada empresa; por ahora la sección Clientes usa placeholders genéricos.
+
+## Propiedad y licencia
+
+Código y diseño **© 2026 Transporte Ordoñes — todos los derechos reservados** (ver `LICENSE`). El repositorio es **público solo para despliegue/transparencia**: **no es open source** y no se permite su reutilización sin autorización. Como es un sitio estático, el repo no expone nada que no se vea ya desde el navegador (no hay claves ni secretos).
